@@ -1,0 +1,22 @@
+templates:
+- doc_type: Решение
+  filename: Решение №{номер} от {дата}
+  subdir: Решения
+- doc_type: Приказ
+  filename: Приказ №{номер} от {дата}
+  subdir: Приказы
+- doc_type: Договор
+  filename: Договор №{номер} от {дата}
+  subdir: Договоры
+- doc_type: Заявление
+  filename: Заявление {тема} от {дата}
+  subdir: Заявления
+- doc_type: Решение
+  filename: '{тип} от {дата}'
+  subdir: Решения
+- doc_type: Протокол
+  filename: '{тип} №{номер} от {дата}'
+  subdir: Протокол
+- doc_type: Акт
+  filename: '{тип} №{номер} от {дата}'
+  subdir: Акт

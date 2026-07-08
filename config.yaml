@@ -1,0 +1,17 @@
+inbox_dir: scannerdata
+out_dir: sorted
+unknown_dir: unknown
+check_interval_minutes: 5
+max_file_size_mb: 80
+show_notifications: true
+show_logs_tab: true
+vision_enabled: true
+vision_url: http://localhost:11434/api/generate
+vision_model: qwen2.5vl:7b
+vision_timeout: 0
+vision_max_pages: 1
+vision_num_ctx: 8192
+vision_try_header_first: true
+header_crop_ratio: 0.35
+vision_user_prompt: ''
+pdf_render_dpi: 190
